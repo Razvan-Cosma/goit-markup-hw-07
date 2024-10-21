@@ -1,0 +1,45 @@
+/* HIDDEN */
+/* LIST */
+/*-- B7, B8 CONTENT CENTER */
+/*-- B15 SECTION PADDING */
+.visually-hidden {
+  border: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.list {
+  list-style: none;
+}
+.link {
+  &:hover {
+    color: var(--color-primary-brand);
+  }
+  &:focus {
+    color: var(--color-primary-brand);
+  }
+  &:active {
+    color: var(--color-primary-brand);
+  }
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.section-bottom {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section-top {
+  padding-top: 94px;
+}
